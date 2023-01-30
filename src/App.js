@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import {
-  Button,
-  Col,
-  Form,
-  Row,
-  Table
-} from "react-bootstrap";
-
+import {Button,Col,Form,Row,Table} from "react-bootstrap";
 function App() {
 let date = new Date().toLocaleTimeString();
   const [inputA, setInputA] = useState("");
